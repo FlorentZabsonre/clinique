@@ -1,0 +1,92 @@
+body {
+	background: #FAFAFA;
+}
+
+form {
+	width: 80%;
+}
+
+fieldset {
+	width: 100%;
+	margin-bottom: 10px;
+	border: #CCC 1px solid;
+}
+
+fieldset:hover {
+	background: #FFF;
+}
+
+legend {
+	padding: 0 10px;
+	border-left: #999 1px solid;
+	border-right: #999 1px solid;
+	color: #999;
+}
+
+label {
+	width: 29%;
+	background: #FFCC66;
+	display: block;
+	float: left;
+	text-align: right;
+	letter-spacing: 1px;
+	padding-right: 1%;
+}
+
+label:hover {
+	font-weight: bold;
+}
+
+#monForm .form_label_nostyle {
+	background: nome;
+}
+
+input,select {
+	width: 48%;
+	margin-left: 1%;
+	border: #CCC 1px solid;
+}
+
+input:hover,input:focus,select:hover,select:focus {
+	background: #DDEEFF;
+	border: #999 1px solid;
+}
+
+#jour,#mois {
+	width: 3%;
+}
+
+#annee {
+	width: 6%;
+}
+label[for="a"]{
+	width: 39%;
+	background: none;
+	display: block;
+	float: left;
+	text-align: right;
+	padding-right: 1%;
+}
+input[type="submit"] {
+	border: #DDEEFF 1px solid;
+	width: 27%;
+}
+
+input[type="submit"]:hover {
+	background-color: #66CC33;
+	cursor: pointer;
+}
+
+input[type="reset"] {
+	border: #DDEEFF 1px solid;
+	width: 27%;
+}
+
+input[type="reset"]:hover {
+	background-color: #E6484D;
+	cursor: pointer;
+}
+
+input[type="radio"] {
+	width: 5%;
+}

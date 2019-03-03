@@ -1,0 +1,188 @@
+body {
+	margin: 0px;
+	
+	background-image:linear-gradient(#ADD8E6,white); 
+}
+
+#titre {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	background-color: #ADD8E6;
+	height: 80px;
+}
+
+div.arriereplan {
+	
+	top: -20px;
+	bottom: 20px;
+	position: absolute;
+	background-position: top center;
+	height: 100%;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-image:
+		url("2015_volkswagen_scirocco_r_1_1920x1080.jpg");
+}
+div.logo{
+	margin: 16px 50px 0 10%;
+	height: 50px;
+	width: 50px;
+	float: left;
+}
+div.Accueil {
+	font-size: 20px;
+	color: rgb(117, 117, 117);
+	float: left;
+	padding: 15px 30px 15px 30px;
+	margin: 13px 25px 12px 25px;
+}
+
+div.Accueil:hover {
+	color: white;
+	cursor: pointer;
+	background-color: #7C7C7C;
+	border-radius: 10px;
+}
+
+div.LieuxHoraires {
+	font-size: 20px;
+	color: rgb(117, 117, 117);
+	float: left;
+	padding: 15px 30px 15px 30px;
+	margin: 13px 25px 12px 25px;
+}
+
+div.LieuxHoraires:hover {
+	color: white;
+	cursor: pointer;
+		background-color: #7C7C7C;
+	border-radius: 10px;
+}
+
+div.Tarifs {
+	font-size: 20px;
+	color: rgb(117, 117, 117);
+	float: left;
+	padding: 15px 30px 15px 30px;
+	margin: 13px 25px 12px 25px;
+}
+
+div.Tarifs:hover {
+	color: white;
+	cursor: pointer;
+		background-color: #7C7C7C;
+	border-radius: 10px;
+}
+
+div.Evenements {
+	font-size: 20px;
+	color: rgb(117, 117, 117);
+	float: left;
+	padding: 15px 30px 15px 30px;
+	margin: 13px 25px 12px 25px;
+}
+
+div.Evenements:hover {
+	color: white;
+	cursor: pointer;
+	background-color: #7C7C7C;
+	border-radius: 10px;
+}
+
+div.Contact {
+	font-size: 20px;
+	color: rgb(117, 117, 117);
+	float: left;
+	padding: 15px 30px 15px 30px;
+	margin: 13px 25px 12px 25px;
+}
+
+div.Contact:hover {
+	color: white;
+	cursor: pointer;
+	background-color: #7C7C7C;
+	border-radius: 10px;
+}
+div.Connexion, div.deconnexion{
+	font-size: 20px;
+	color: rgb(117, 117, 117);
+	float: left;
+	padding: 15px 30px 15px 30px;
+	margin: 13px 0px 12px 0px;
+}
+
+div.Connexion:hover, div.deconnexion:hover {
+	color: white;
+	cursor: pointer;
+		background-color: #7C7C7C;
+	border-radius: 10px;
+}
+a.link{
+	text-decoration: none;
+	text-transform: none;
+	text-color: none;
+}
+a.link:visited{
+	text-decoration: none;
+	text-transform: none;
+	text-color: none;
+}
+/*b{
+	height: 50px;
+	width: 50px;
+}*/
+
+#colonnes {
+	margin-top: 80px;
+	margin-bottom: -80px;
+}
+
+#col1 {
+
+	height: 97%;
+	width: 13%;
+	float: left;
+}
+
+#col2 {
+	height: 97%;
+	width: 71%;
+	float: left;
+}
+
+#col3 {
+	height: 97%;
+	width: 16%;
+	float: right;
+}
+
+
+div.contenu{
+background-image:-moz-linear-gradient(white,green);
+float :left;
+width:180px;
+background-color: blue;
+border :solid black;
+vertical-align: top;
+border-radius: 5px;
+text-align: center;
+margin-top: 3px;
+padding-top: 20px;
+}
+/*
+div.bas {
+	clear: both;
+	text-align: center;
+	height: 20px;
+	color: rgb(117, 117, 117);
+}*/
+#legend{
+
+	font-style: bold;
+}

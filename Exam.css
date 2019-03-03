@@ -1,0 +1,23 @@
+#body {
+	margin: 0px;
+	font-family: verdana;
+	font-size: small;
+	height: 100%;
+	
+	background-image:linear-gradient(#ADD8E6,white);
+	
+}
+table{
+	border-collapse: collapse;
+	/*les bordures du tableau sont collees*/
+border:1px solid black;
+text-align: center;
+}
+td{
+	width:100px; height: 50px;
+	border:1px solid black;
+}
+#fieldset{
+	text-align: center;
+	padding-right: 20%;
+}

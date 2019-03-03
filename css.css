@@ -1,0 +1,121 @@
+#menup,#contenu,#footer,#entete,#menu1{
+  padding:1px 0;
+}
+
+#entete{
+	background-image:-moz-linear-gradient(brown,gray);
+	background-color: gray;
+	text-align: center;
+	font-weight:bold;
+	height: 50px;
+}
+
+#menup{
+background-image:-moz-linear-gradient(white,green);
+float :left;
+width:180px;
+background-color: blue;
+border :solid black;
+vertical-align: top;
+border-radius: 5px;
+text-align: center;
+}
+
+#contenu{
+background-image:-moz-linear-gradient(#ADD8E6,white);
+background-color: gray;
+margin-left:245px;
+margin-right: 245px;
+padding:100px;
+padding-bottom: 50px;
+border: solid black;
+border-radius:  20px;
+overflow:auto;
+
+}
+
+#main{
+ background-image:-moz-linear-gradient(white,green);
+ overflow:auto;
+
+	/*margin:300px;*/
+   top:1000px;
+	/*position: relative;*/
+	width: 1320px;
+	height: 600px;
+}
+
+#footer{
+	background-color: gray;
+	text-align: center;
+	clear:both;
+}
+
+#body{	
+	background-image:-moz-linear-gradient(#ADD8E6,gray);
+	background: gray;
+	width:10px;
+	/*height: 20px;*/	
+}
+
+#form{
+	background-image:-moz-linear-gradient(white,gray);
+	background: gray;
+	width:10px;
+	height: 20px;
+	font-size: 0.8em;
+}
+legend{
+
+text-align: center;
+}
+label{
+	
+	display:block;
+	width:100px;
+	float:left;
+}
+h1{
+	text-align: center;
+background-image:-moz-linear-gradient(white,gray);
+}
+#menu1{
+	 background-color: blue;
+	 background-image: linear-gradient(white, red);
+	 float: right;
+	 right: 290px;
+	 width:180px;
+	 border-radius: 5px;
+	 border :solid black;
+
+}
+fieldset{
+text-align: center;
+background-image:-moz-linear-gradient(white,red);
+width: 100px;
+
+}
+
+
+	img{
+	
+	margin-left: 20px;
+	margin-right: 0px;
+	margin-top:30px;
+	width: 100px;
+	height: 100px;
+	padding-bottom: 100px;
+	}
+
+table{
+	border-collapse: collapse;
+	/*les bordures du tableau sont collees*/
+border:1px solid black;
+}
+td{
+	width:100px; height: 50px;
+	border:1px solid black;
+}
+th{
+
+}
